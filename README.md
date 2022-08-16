@@ -1,8 +1,8 @@
 # Natural-Amenity-Dash-Map
 
-### Personal data science project that I host on my [personal website](http://map.israelsenlab.org).
+### Personal data science project that I host on my [personal website](https://www.israelsenlab.org).
 
-This is an interactive choropleth map, built using Dash/Plotly, that displays various natural amenities by county for the 
+This is an [interactive choropleth map](http://map.israelsenlab.org), built using Dash/Plotly, that displays various natural amenities by county for the 
 contiguous United States. This map was inspired by the [USDA ERS Natural Amenities 
 Scale](https://www.ers.usda.gov/data-products/natural-amenities-scale/) and displays some of the data used in the original 
 study (*Natural Amenities Drive Rural Population Change*, by David A. McGranahan); both the study and original data tables can 
