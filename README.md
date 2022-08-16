@@ -5,7 +5,7 @@
 This is an interactive choropleth map, built using Dash/Plotly, that displays various natural amenities by county for the 
 contiguous United States. This map was inspired by the [USDA ERS Natural Amenities 
 Scale](https://www.ers.usda.gov/data-products/natural-amenities-scale/) and displays some of the data used in the original 
-study (Natural Amenities Drive Rural Population Change, by David A. McGranahan); both the study and original data tables can 
+study (*Natural Amenities Drive Rural Population Change*, by David A. McGranahan); both the study and original data tables can 
 be found at the previous link.
 
 The natural amenities shown on the map are environmantal factors or variables that may influence one's enjoyment of living in a 
@@ -45,6 +45,8 @@ See my Jupyter Notebook in /white_christmas-data in this repository.
 This is an interactive Dash app that I am currently running on AWS Elastic Beanstalk (Python 3.8).
 
 The deployed version is in /dash-app in this repository.
+
+#### Planned Updates
 
 I have additional improvements planned, which will occur as I have time.
 - Add more data, as listed above.
