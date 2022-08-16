@@ -1,6 +1,6 @@
 # Natural-Amenity-Dash-Map
 
-### This is a personal data science project that I host on my [personal webpage](http://map.israelsenlab.org).
+### Personal data science project that I host on my [personal website](http://map.israelsenlab.org).
 
 This is an interactive choropleth map, built using Dash/Plotly, that displays various natural amenities by county for the 
 contiguous United States. This map was inspired by the [USDA ERS Natural Amenities 
@@ -27,7 +27,7 @@ I have thus far added an addtional data set (the probability of snow coverage on
 or "Chance of a White Christmas"). I plan to add additional data that interest me, such as surface water 
 hardness, night sky darkness, air quality, percent tree cover, availability of public lands, etc.
 
-#### Dec 25th Data Set
+### Dec 25th Data Set
 
 Chance of White Christmas is the probability of snow depth >= 1 inch on Christmas Day, according to 1991-2020 
 Climate Normals data from the NOAA NCEI. I mapped the weather station coordinates from the [raw 
@@ -40,13 +40,13 @@ Adjacency File](https://www.census.gov/geographies/reference-files/2010/geo/coun
 
 See my Jupyter Notebook in /white_christmas-data in this repository.
 
-#### Dash App
+### Dash App
 
 This is an interactive Dash app that I am currently running on AWS Elastic Beanstalk (Python 3.8).
 
 The deployed version is in /dash-app in this repository.
 
-#### Planned Updates
+### Planned Updates
 
 I have additional improvements planned, which will occur as I have time.
 - Add more data, as listed above.
