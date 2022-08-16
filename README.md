@@ -24,7 +24,7 @@ population, from the USDA study)
 - Chance of White Christmas
  
 I have thus far added an addtional data set (the probability of snow coverage on Dec 25, 
-or "Chance of a White Christmas"). I plan to add additional data that interest me, such as surface water 
+or "Chance of White Christmas"). I plan to add additional data that interest me, such as surface water 
 hardness, night sky darkness, air quality, percent tree cover, availability of public lands, etc.
 
 ### Dec 25th Data Set
@@ -50,6 +50,7 @@ The deployed version is in /dash-app in this repository.
 
 I have additional improvements planned, which will occur as I have time.
 - Add more data, as listed above.
+- Fix issue with hovername not changing when selecting a new dataset. 
 - Fix issues when viewing on mobile, including:
 	- Get click to work (instead of hover(?)) so that the zoom reset button works.
 	- Initial map sizing on small mobile screens
