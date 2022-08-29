@@ -1,0 +1,138 @@
+"Alexandria city, VA"	51510	"District of Columbia, DC"	11001
+		"Prince George's County, MD"	24033
+		"Arlington County, VA"	51013
+		"Fairfax County, VA"	51059
+		"Alexandria city, VA"	51510
+"Bedford city, VA"	51515	"Bedford County, VA"	51019
+		"Bedford city, VA"	51515
+"Bristol city, VA"	51520	"Sullivan County, TN"	47163
+		"Washington County, VA"	51191
+		"Bristol city, VA"	51520
+"Buena Vista city, VA"	51530	"Rockbridge County, VA"	51163
+		"Buena Vista city, VA"	51530
+"Charlottesville city, VA"	51540	"Albemarle County, VA"	51003
+		"Charlottesville city, VA"	51540
+"Chesapeake city, VA"	51550	"Camden County, NC"	37029
+		"Currituck County, NC"	37053
+		"Chesapeake city, VA"	51550
+		"Norfolk city, VA"	51710
+		"Portsmouth city, VA"	51740
+		"Suffolk city, VA"	51800
+		"Virginia Beach city, VA"	51810
+"Colonial Heights city, VA"	51570	"Chesterfield County, VA"	51041
+		"Colonial Heights city, VA"	51570
+		"Petersburg city, VA"	51730
+"Covington city, VA"	51580	"Alleghany County, VA"	51005
+		"Covington city, VA"	51580
+"Danville city, VA"	51590	"Caswell County, NC"	37033
+		"Pittsylvania County, VA"	51143
+		"Danville city, VA"	51590
+"Emporia city, VA"	51595	"Greensville County, VA"	51081
+		"Emporia city, VA"	51595
+"Fairfax city, VA"	51600	"Fairfax County, VA"	51059
+		"Fairfax city, VA"	51600
+"Falls Church city, VA"	51610	"Arlington County, VA"	51013
+		"Fairfax County, VA"	51059
+		"Falls Church city, VA"	51610
+"Franklin city, VA"	51620	"Isle of Wight County, VA"	51093
+		"Southampton County, VA"	51175
+		"Franklin city, VA"	51620
+"Fredericksburg city, VA"	51630	"Spotsylvania County, VA"	51177
+		"Stafford County, VA"	51179
+		"Fredericksburg city, VA"	51630
+"Galax city, VA"	51640	"Carroll County, VA"	51035
+		"Grayson County, VA"	51077
+		"Galax city, VA"	51640
+"Hampton city, VA"	51650	"Northampton County, VA"	51131
+		"York County, VA"	51199
+		"Hampton city, VA"	51650
+		"Newport News city, VA"	51700
+		"Norfolk city, VA"	51710
+		"Poquoson city, VA"	51735
+		"Portsmouth city, VA"	51740
+		"Virginia Beach city, VA"	51810
+"Harrisonburg city, VA"	51660	"Rockingham County, VA"	51165
+		"Harrisonburg city, VA"	51660
+"Hopewell city, VA"	51670	"Chesterfield County, VA"	51041
+		"Prince George County, VA"	51149
+		"Hopewell city, VA"	51670
+"Lexington city, VA"	51678	"Rockbridge County, VA"	51163
+		"Lexington city, VA"	51678
+"Lynchburg city, VA"	51680	"Amherst County, VA"	51009
+		"Bedford County, VA"	51019
+		"Campbell County, VA"	51031
+		"Lynchburg city, VA"	51680
+"Manassas city, VA"	51683	"Prince William County, VA"	51153
+		"Manassas city, VA"	51683
+		"Manassas Park city, VA"	51685
+"Manassas Park city, VA"	51685	"Prince William County, VA"	51153
+		"Manassas city, VA"	51683
+		"Manassas Park city, VA"	51685
+"Martinsville city, VA"	51690	"Henry County, VA"	51089
+		"Martinsville city, VA"	51690
+"Newport News city, VA"	51700	"Isle of Wight County, VA"	51093
+		"James City County, VA"	51095
+		"Surry County, VA"	51181
+		"York County, VA"	51199
+		"Hampton city, VA"	51650
+		"Newport News city, VA"	51700
+		"Portsmouth city, VA"	51740
+		"Suffolk city, VA"	51800
+"Norfolk city, VA"	51710	"Northampton County, VA"	51131
+		"Chesapeake city, VA"	51550
+		"Hampton city, VA"	51650
+		"Norfolk city, VA"	51710
+		"Portsmouth city, VA"	51740
+		"Virginia Beach city, VA"	51810
+"Norton city, VA"	51720	"Wise County, VA"	51195
+		"Norton city, VA"	51720
+"Petersburg city, VA"	51730	"Chesterfield County, VA"	51041
+		"Dinwiddie County, VA"	51053
+		"Prince George County, VA"	51149
+		"Colonial Heights city, VA"	51570
+		"Petersburg city, VA"	51730
+"Poquoson city, VA"	51735	"Northampton County, VA"	51131
+		"York County, VA"	51199
+		"Hampton city, VA"	51650
+		"Poquoson city, VA"	51735
+"Portsmouth city, VA"	51740	"Chesapeake city, VA"	51550
+		"Hampton city, VA"	51650
+		"Newport News city, VA"	51700
+		"Norfolk city, VA"	51710
+		"Portsmouth city, VA"	51740
+		"Suffolk city, VA"	51800
+"Radford city, VA"	51750	"Montgomery County, VA"	51121
+		"Pulaski County, VA"	51155
+		"Radford city, VA"	51750
+"Richmond city, VA"	51760	"Chesterfield County, VA"	51041
+		"Henrico County, VA"	51087
+		"Richmond city, VA"	51760
+"Roanoke city, VA"	51770	"Roanoke County, VA"	51161
+		"Roanoke city, VA"	51770
+		"Salem city, VA"	51775
+"Salem city, VA"	51775	"Roanoke County, VA"	51161
+		"Roanoke city, VA"	51770
+		"Salem city, VA"	51775
+"Staunton city, VA"	51790	"Augusta County, VA"	51015
+		"Staunton city, VA"	51790
+"Suffolk city, VA"	51800	"Camden County, NC"	37029
+		"Gates County, NC"	37073
+		"Isle of Wight County, VA"	51093
+		"Southampton County, VA"	51175
+		"Chesapeake city, VA"	51550
+		"Newport News city, VA"	51700
+		"Portsmouth city, VA"	51740
+		"Suffolk city, VA"	51800
+"Virginia Beach city, VA"	51810	"Currituck County, NC"	37053
+		"Northampton County, VA"	51131
+		"Chesapeake city, VA"	51550
+		"Hampton city, VA"	51650
+		"Norfolk city, VA"	51710
+		"Virginia Beach city, VA"	51810
+"Waynesboro city, VA"	51820	"Augusta County, VA"	51015
+		"Waynesboro city, VA"	51820
+"Williamsburg city, VA"	51830	"James City County, VA"	51095
+		"York County, VA"	51199
+		"Williamsburg city, VA"	51830
+"Winchester city, VA"	51840	"Frederick County, VA"	51069
+		"Winchester city, VA"	51840
