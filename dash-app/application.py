@@ -150,13 +150,13 @@ app.layout = html.Div(
     className='row',
     style={'backgroundColor':'WhiteSmoke'}  #WhiteSmoke
 )
-# try making the figure before the callbacks
-#   include parameters that don't change
+
+# make as much of the figure as possible before the callbacks
+# include parameters that don't change
+
 fig = px.choropleth_mapbox(data_frame=df_data,
                            geojson=counties,
                            locations=df_data['FIPS'],
-#                            custom_data = df_data[['Hover_county_name','Natural_Amenity_Rank']],
-#                            hover_template = "<b>%{customdata[0]}</b><br>%{hover_text_names['Natural_Amenity_Rank']}: %{customdata[1]:.3f}",
                            color=df_data['Natural_Amenity_Rank'],
                            color_continuous_scale="Viridis",
                            mapbox_style="carto-positron",
@@ -165,7 +165,6 @@ fig = px.choropleth_mapbox(data_frame=df_data,
                            opacity=0.5,
                           )
 fig.update_traces(customdata = df_data[['Hover_county_name','Natural_Amenity_Rank']], hovertemplate = "<b>%{customdata[0]}</b><br>"+hover_text_names['Natural_Amenity_Rank']+" = %{customdata[1]:.2f}")
-
 fig.update_coloraxes(colorbar_title_side="top") # https://plotly.com/python/reference/layout/coloraxis/
 fig.update_coloraxes(colorbar_orientation='h')
 fig.update_coloraxes(colorbar_title_text=title_dict['Natural_Amenity_Rank'])
@@ -182,9 +181,10 @@ fig.update_layout(
     t=0,
     pad=0
     ),
-    paper_bgcolor="WhiteSmoke"   #   "LightSteelBlue",
+    paper_bgcolor="WhiteSmoke"
 )
 
+# callbacks
 
 @app.callback(
     Output(component_id='variable-description', component_property='children'),
@@ -200,17 +200,16 @@ def update_variable_div(variable):
     Input("reset-zoom", "n_clicks"),
 )
 
-def update_map(variable, click):  # have to have the outside if/else because this won't work with just using fig['layout']['uirevision'] = "initial" = click = 0, for some reason that I don't understand
+def update_map(variable, click):  # have to have the outside if/else because this won't work with just using fig['layout']['uirevision'] = "initial" set to 0 clicks, for some reason
     if click == 0:
         fig['layout']['uirevision'] = "initial"  # set first to not change zoom on first input
-    
         if ctx.triggered_id == 'select-variable': # keep zoom & center when updating the map variable
             fig['layout']['uirevision'] = "initial"  # keep constant to not change the user-inputted zoom and center
             fig.update_coloraxes(colorbar_title_text=title_dict[variable])  # change colorbar title
-            fig.update_traces(z=df_data[variable],
+            fig.update_traces(z=df_data[variable], # change map color (z is "color")
                               selector=dict(type='choroplethmapbox'),
                               customdata = df_data[['Hover_county_name',variable]],
-                              hovertemplate = "<b>%{customdata[0]}</b><br>"+hover_text_names[variable]+" = %{customdata[1]:.2f}")  # change map color (z is "color")
+                              hovertemplate = "<b>%{customdata[0]}</b><br>"+hover_text_names[variable]+" = %{customdata[1]:.2f}")
         elif ctx.triggered_id == 'reset-zoom':  # reset zoom and center upon button press, only works before we press
             fig['layout']['uirevision'] = click  # change every time with number of clicks to allow change of zoom & center
     else:
@@ -218,18 +217,13 @@ def update_map(variable, click):  # have to have the outside if/else because thi
         if ctx.triggered_id == 'select-variable': # keep zoom & center when updating the map variable
             fig['layout']['uirevision'] = click  # keep constant to not change the user-inputted zoom and center
             fig.update_coloraxes(colorbar_title_text=title_dict[variable])  # change colorbar title
-            customdata = df_data[['Hover_county_name',variable]]
-            fig.update_traces(z=df_data[variable],
+            fig.update_traces(z=df_data[variable], # change map color (z is "color")
                               selector=dict(type='choroplethmapbox'),
                               customdata = df_data[['Hover_county_name',variable]],
-                              hovertemplate = "<b>%{customdata[0]}</b><br>"+hover_text_names[variable]+" = %{customdata[1]:.2f}")  # change map color (z is "color")
+                              hovertemplate = "<b>%{customdata[0]}</b><br>"+hover_text_names[variable]+" = %{customdata[1]:.2f}")
         elif ctx.triggered_id == 'reset-zoom':  # reset zoom and center upon button press, only works before we press
             fig['layout']['uirevision'] = click  # change every time with number of clicks to allow change of zoom & center
-        
     return fig
 
 if __name__ == "__main__":
-     # Setting debug to True enables debug output. This line should be
-     # removed before deploying a production app.
-     #application.debug = True
     application.run()  # run the server for AWS
