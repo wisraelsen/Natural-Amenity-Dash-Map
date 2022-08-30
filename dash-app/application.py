@@ -121,7 +121,7 @@ app.layout = html.Div(
                 ###### **Where do you want to live?**
                 Explore natural amenities by county for the Lower 48 States. This map shows data from multiple public sources,
                 including the [USDA ERS Natural Amenities Scale](https://www.ers.usda.gov/data-products/natural-amenities-scale/),
-                as well as additional data sets retrieved and processed by the author. Higher on the scale (more yellow) would be
+                as well as additional data sets I have retrieved and processed. Higher on the scale (more yellow) would be
                 considered 'more desirable' by most people. See below for descriptions and individual data sources.
                 '''),
                 html.Hr(style = {'margin-top':'1rem', 'margin-bottom':'1rem', 'border-width':'1'}),
