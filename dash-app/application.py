@@ -84,7 +84,7 @@ description = {'Natural_Amenity_Rank':dcc.Markdown('''***Natural Amenity Rank***
               'Forest_Percent': dcc.Markdown('''***Forest Area*** is the percentage of the county that is forest land, as determined from
                     current US Forest Service Forest Inventory and Analysis (FIA) data retrieved using [EVALIDator 2.0.3]
                     (https://www.fs.usda.gov/ccrc/tool/forest-inventory-data-online-fido-and-evalidator) in 2022. This measure is inclusive
-                    of many types of forest – including, for example, mequite and juniper/pine forest in central and west Texas – and
+                    of many types of forest – including, for example, mesquite and juniper/pine forest in central and west Texas – and
                     is meant to capture the natural amenity of local tree cover and not just timberland. Details are available on [Github]
                     (https://github.com/wisraelsen/Natural-Amenity-Dash-Map).''')
               }
