@@ -35,7 +35,7 @@ Climate Normals data from the NOAA NCEI. I mapped the weather station coordinate
 data](https://www.ncei.noaa.gov/media/3501) to county 
 FIPS codes using the [FCC API](https://geo.fcc.gov/api/census/) census data. I averaged the probabilities if 
 more 
-than one station was persent per county. Some counties had no station data, so I interpolated probabilities 
+than one station was present per county. Some counties had no station data, so I interpolated probabilities 
 for those counties from available neighboring counties using the [US Census Bureau County 
 Adjacency File](https://www.census.gov/geographies/reference-files/2010/geo/county-adjacency.html).
 
@@ -59,7 +59,7 @@ repository.**
 
 ## Dash App
 
-This is an interactive Dash app that I am currently running on AWS Elastic Beanstalk (Python 3.8).
+This is the interactive Dash app that I am currently running on AWS Elastic Beanstalk (Python 3.8).
 
 **The deployed version is in 
 [/dash-app](https://github.com/wisraelsen/Natural-Amenity-Dash-Map/tree/main/dash-app) in this repository.**
