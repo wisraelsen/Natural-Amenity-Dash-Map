@@ -27,9 +27,8 @@ population, from the USDA study)
 I have thus far added two an addtional data sets (the probability of snow coverage on Dec 25, 
 or "Chance of White Christmas", and the percentage of each county that is "Forest Area"). I plan to add additional data that interest me, such as surface water hardness, night sky darkness, air quality, availability of public lands, etc.
 
----
 
-### White Christmas Data Set
+## White Christmas Data Set
 
 Chance of White Christmas is the probability of snow depth >= 1 inch on Christmas Day, according to 1991-2020 
 Climate Normals data from the NOAA NCEI. I mapped the weather station coordinates from the [raw 
@@ -44,9 +43,8 @@ Adjacency File](https://www.census.gov/geographies/reference-files/2010/geo/coun
 [/white_christmas-data](https://github.com/wisraelsen/Natural-Amenity-Dash-Map/tree/main/white-christmas-data) in 
 this repository.**
 
----
 
-### Forest Area Data Set
+## Forest Area Data Set
 
 Forest Area is the percentage of the county that is forest land, as determined from Forest Inventory and Analysis
 (FIA) data retrieved from the US Forest Service using [EVALIDator 2.0.3]
@@ -58,18 +56,16 @@ is meant to capture the natural amenity of local tree cover and not just timberl
 [/forest-area-data](https://github.com/wisraelsen/Natural-Amenity-Dash-Map/tree/main/forest-area-data) in this 
 repository.**
 
----
 
-### Dash App
+## Dash App
 
 This is an interactive Dash app that I am currently running on AWS Elastic Beanstalk (Python 3.8).
 
 **The deployed version is in 
 [/dash-app](https://github.com/wisraelsen/Natural-Amenity-Dash-Map/tree/main/dash-app) in this repository.**
 
----
 
-### Planned Updates
+## Planned Updates
 
 I have additional improvements planned, which will occur as I have time.
 - Add more data, as listed above.
