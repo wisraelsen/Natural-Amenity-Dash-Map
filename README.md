@@ -24,7 +24,7 @@ population, from the USDA study)
 - Chance of White Christmas
 - Forest Area by County
  
-I have thus far added two an addtional data sets (the probability of snow coverage on Dec 25, 
+I have thus far added two addtional data sets (the probability of snow coverage on Dec 25, 
 or "Chance of White Christmas", and the percentage of each county that is "Forest Area"). I plan to add additional data that interest me, such as surface water hardness, night sky darkness, air quality, availability of public lands, etc.
 
 
